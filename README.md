@@ -14,10 +14,15 @@
 - Swansea staff: prakhar.sharma@swansea.ac.uk
 - [CIMNE](https://www.cimne.com/) UPC: prakhars962@cimne.com
 
-## Socials
+## Forums
 - StackExchange: [Stackexchange](https://stackexchange.com/users/19923335/prakhar-sharma?tab=accounts)
+- NVIDIA developer forum: [NVIDIA developer forum](https://forums.developer.nvidia.com/u/prakhar_sharma/summary)
+
+<!--
+## Socials
 - Wordpress: [Website](https://prakhar962.wordpress.com/)
 - Quora: [Quora](https://www.quora.com/profile/Prakhar-Sharma-290)
 - Facebook: [Facebook](https://www.facebook.com/prakharsharma962)
 - Reddit: [Reddit](https://www.reddit.com/user/Captain-Thor/submitted/)
 - Twitter: [Twitter](https://twitter.com/prakhar962)
+-->
