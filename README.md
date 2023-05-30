@@ -4,10 +4,12 @@
 - ORCID: [ORCID](https://orcid.org/0000-0002-7635-1857)
 - SCOPUS: [SCOPUS](https://www.scopus.com/authid/detail.uri?authorId=57693143700)
 - Web of Science: [Researcher ID](https://www.webofscience.com/wos/author/record/GZK-5529-2022)
+- ResearchGate: [ResearchGate](https://www.researchgate.net/profile/Prakhar-Sharma-4)
 
 ## Code repos
 - Github: [Github](https://github.com/praksharma)
 - Gitlab: [Gitlab](https://gitlab.com/prakhars962)
+
 ## Email
 - Gmail: prakhars962@gmail.com
 - Swansea student: 1915438@swansea.ac.uk
