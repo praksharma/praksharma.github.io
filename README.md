@@ -11,10 +11,10 @@
 - Gitlab: [Gitlab](https://gitlab.com/prakhars962)
 
 ## Email
-- Gmail: prakhars962@gmail.com
-- Swansea student: 1915438@swansea.ac.uk
-- Swansea staff: prakhar.sharma@swansea.ac.uk
-- [CIMNE](https://www.cimne.com/) UPC: prakhars962@cimne.com
+- Gmail: [prakhars962@gmail.com](mailto:prakhars962@gmail.com)
+- Swansea student: [1915438@swansea.ac.uk](mailto:1915438@swansea.ac.uk)
+- Swansea staff: [prakhar.sharma@swansea.ac.uk](mailto:prakhar.sharma@swansea.ac.uk)
+- [CIMNE](https://www.cimne.com/) UPC: [prakhars962@cimne.com](mailto:prakhars962@cimne.com)
 
 ## Forums
 - StackExchange: [Stackexchange](https://stackexchange.com/users/19923335/prakhar-sharma?tab=accounts)
