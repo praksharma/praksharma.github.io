@@ -5,12 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+* A full list can be found on my [Google scholar](https://scholar.google.com/citations?user=WYPgd2cAAAAJ&hl=en).
 
-{% include base_path %}
+## Journal Papers
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+* Sharma, P., Evans, L., Tindall, M., Nithiarasu, P. Stiff-PDEs and Physics-Informed Neural Networks. Archives of Computational Methods in Engineering, 2023.
+* Liu C, Fu R, Xiao D, Stefanescu R, Sharma P, Zhu C, et al. EnKF data-driven reduced order assimilation system. Engineering Analysis with Boundary Elements. 2022, Jun 1;139:46-55.
