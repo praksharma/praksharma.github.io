@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-* A full list can be found on my [Google scholar](https://scholar.google.com/citations?user=WYPgd2cAAAAJ&hl=en).
+* The full list can be found on my [Google scholar](https://scholar.google.com/citations?user=WYPgd2cAAAAJ&hl=en).
 
 ## Journal Papers
 
