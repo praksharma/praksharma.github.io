@@ -5,4 +5,4 @@ permalink: /projects/
 author_profile: true
 ---
 
-* Project page added
+* TODO
