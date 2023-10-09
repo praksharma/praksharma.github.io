@@ -8,7 +8,7 @@ author_profile: true
 ## HPC Helper
 An extensive documentation for machine learning on slurm scheduler based HPC clusters.
 
-Link to the docs: [sunbird.readthedocs.io](sunbird.readthedocs.io)
+Link to the docs: [sunbird.readthedocs.io](https://sunbird.readthedocs.io)
 
 ## DeepINN
 A Physics-informed neural network (PINN) library, built on top of [Bosch TorchPhysics](https://github.com/boschresearch/torchphysics)'s geometry module.
