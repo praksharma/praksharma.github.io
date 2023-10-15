@@ -32,3 +32,10 @@ author_profile: true
 ### Jan 2023 - Apr 2023
 * [EG-3066](https://intranet.swan.ac.uk/catalogue/default.asp?type=moddetail&dept=any&mod=EG-3066&ayr=22/23&psl=TB2&detailOnly=false) - Industry 4.0
   * Module coordinator: Dr JS Thompson
+
+### Sep 2023 - Present
+* [EG-M97](https://intranet.swan.ac.uk/catalogue/default.asp?type=moddetail&dept=any&mod=EG-M97&ayr=22/23&psl=TB1&detailOnly=false) - Advanced Solid Mechanics (Computer simulation lab)
+  * Module coordinator: Dr C Wang
+
+* [EGA334](https://intranet.swan.ac.uk/catalogue/default.asp?type=moddetail&dept=any&mod=EGA334&ayr=23/24&psl=TB1&detailOnly=false) - Mechanical Engineering Design 3
+  * Module coordinator: Dr M Togneri
