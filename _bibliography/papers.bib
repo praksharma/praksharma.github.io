@@ -1,0 +1,52 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+
+@article{liu2022enkf,
+  bibtex_show={true},
+  title={EnKF data-driven reduced order assimilation system},
+  author={Liu, C and Fu, R and Xiao, D and Stefanescu, R and Sharma, P and Zhu, C and Sun, S and Wang, C},
+  year={2022},
+  publisher={Elsevier},
+  journal={Engineering Analysis with Boundary Elements},
+  volume={139},
+  pages={46--55},
+  preview={enkf.jpg},
+  abstract={This work presents a new predictive data assimilation framework based on a data-driven reduced order model (DDROM). The DDROM is constructed using an Auto-Encoder and a long short-term memory (LSTM) neural networks. The Auto-Encoder is used to project the high-dimensional dynamics into a lower-dimensional space, which can be referred as a latent space. Then, LSTM deep learning method is used to construct a number of response functions to represent the fluid states and dynamics in the latent space. A data assimilation framework based on the Ensemble Kalman Filter (EnKF) and DDROM model is then proposed. A demonstration of the capabilities of this data assimilation system is illustrated by two test cases including the 2D Burgers’ equation and the flow past a cylinder governed by Navier–Stokes equations.},
+  html={https://doi.org/10.1016/j.enganabound.2022.02.016},
+  doi={10.1016/j.enganabound.2022.02.016},
+  selected={false},
+  dimensions={true},
+}
+
+@article{sharma2023stiff,
+  bibtex_show={true},
+  title={Stiff-PDEs and Physics-Informed Neural Networks},
+  author={Sharma, Prakhar and Evans, Llion and Tindall, Michelle and Nithiarasu, Perumal},
+  journal={Archives of Computational Methods in Engineering},
+  publisher={Springer},
+  pages={1--30},
+  year={2023},
+  preview={stiff.png},
+  abstract={In recent years, physics-informed neural networks (PINN) have been used to solve stiff-PDEs mostly in the 1D and 2D spatial domain. PINNs still experience issues solving 3D problems, especially, problems with conflicting boundary conditions at adjacent edges and corners. These problems have discontinuous solutions at edges and corners that are difficult to learn for neural networks with a continuous activation function. In this review paper, we have investigated various PINN frameworks that are designed to solve stiff-PDEs. We took two heat conduction problems (2D and 3D) with a discontinuous solution at corners as test cases. We investigated these problems with a number of PINN frameworks, discussed and analysed the results against the FEM solution. It appears that PINNs provide a more general platform for parameterisation compared to conventional solvers. Thus, we have investigated the 2D heat conduction problem with parametric conductivity and geometry separately. We also discuss the challenges associated with PINNs and identify areas for further investigation.},
+  html={https://doi.org/10.1007/s11831-023-09890-4},
+  doi={10.1007/s11831-023-09890-4},
+  selected={true},
+  dimensions={true},
+}
+
+@article{sharma2023hyperparameter,
+  bibtex_show={true},
+  title={Hyperparameter selection for physics-informed neural networks (PINNs)--Application to discontinuous heat conduction problems},
+  author={Sharma, Prakhar and Evans, Llion and Tindall, Michelle and Nithiarasu, Perumal},
+  year={2023},
+  journal={Numerical Heat Transfer, Part B: Fundamentals},
+  publisher={Taylor \& Francis},
+  pages={1--15},
+  preview={NHT-b.jpeg},
+  abstract={In recent years, physics-informed neural networks (PINNs) have emerged as an alternative to conventional numerical techniques to solve forward and inverse problems involving partial differential equations (PDEs). Despite its success in problems with smooth solutions, implementing PINNs for problems with discontinuous boundary conditions (BCs) or discontinuous PDE coefficients is a challenge. The accuracy of the predicted solution is contingent upon the selection of appropriate hyperparameters. In this work, we performed hyperparameter optimization of PINNs to find the optimal neural network architecture, number of hidden layers, learning rate, and activation function for heat conduction problems with a discontinuous solution. Our aim was to obtain all the settings that achieve a relative L2 error of 10% or less across all the test cases. Results from five different heat conduction problems show that the optimized hyperparameters produce a mean relative L2 error of 5.60%.},
+  doi={10.1080/10407790.2023.2264489},
+  selected={true},
+  dimensions={false},
+}

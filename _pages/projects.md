@@ -1,24 +1,58 @@
 ---
-layout: archive
-title: "Projects"
+layout: page
+title: projects
 permalink: /projects/
-author_profile: true
+description: A growing collection of your cool projects.
+nav: true
+nav_order: 2
+display_categories: [work, fun]
+horizontal: false
 ---
 
-## HPC Helper
-An extensive documentation for machine learning on slurm scheduler based HPC clusters.
+<!-- pages/projects.md -->
+<div class="projects">
+{%- if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+  {%- for category in page.display_categories %}
+  <h2 class="category">{{ category }}</h2>
+  {%- assign categorized_projects = site.projects | where: "category", category -%}
+  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
+  <!-- Generate cards for each project -->
+  {% if page.horizontal -%}
+  <div class="container">
+    <div class="row row-cols-2">
+    {%- for project in sorted_projects -%}
+      {% include projects_horizontal.html %}
+    {%- endfor %}
+    </div>
+  </div>
+  {%- else -%}
+  <div class="grid">
+    {%- for project in sorted_projects -%}
+      {% include projects.html %}
+    {%- endfor %}
+  </div>
+  {%- endif -%}
+  {% endfor %}
 
-Link to the docs: [sunbird.readthedocs.io](https://sunbird.readthedocs.io)
-
-## DeepINN
-A Physics-informed neural network (PINN) library, built on top of [Bosch TorchPhysics](https://github.com/boschresearch/torchphysics)'s geometry module.
-
-Link to the docs: [praksharma.github.io/DeepINN](https://praksharma.github.io/DeepINN/)
-
-There are loads of other projects on [my Github](https://github.com/praksharma?tab=repositories).
-
-* [Dockerised-LyX](https://github.com/praksharma/Dockerised-LyX)
-* [Bib-file-abbreviated](https://github.com/praksharma/Bib-file-abbreviated)
-* [Julia-for-HPC](https://github.com/praksharma/Julia-for-HPC) : discontinued
-* [Blender-renders](https://github.com/praksharma/Blender-renders)
-* [DeepXDE-frontend](https://github.com/praksharma/DeepXDE-frontend) : discontinued
+{%- else -%}
+<!-- Display projects without categories -->
+  {%- assign sorted_projects = site.projects | sort: "importance" -%}
+  <!-- Generate cards for each project -->
+  {% if page.horizontal -%}
+  <div class="container">
+    <div class="row row-cols-2">
+    {%- for project in sorted_projects -%}
+      {% include projects_horizontal.html %}
+    {%- endfor %}
+    </div>
+  </div>
+  {%- else -%}
+  <div class="grid">
+    {%- for project in sorted_projects -%}
+      {% include projects.html %}
+    {%- endfor %}
+  </div>
+  {%- endif -%}
+{%- endif -%}
+</div>
