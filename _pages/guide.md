@@ -50,8 +50,10 @@ Here is a nice template. Altmetric is also supported by it is a paid service. Ad
 }
 ```
 
-### Add repositorie details
+### Add repository details
 Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories. Disable GitHub trophies in `repo_trophies` at line 33.
 
+### Turn of related_blog_post
+There is a bug in the online deployment. Just follow [this](https://github.com/alshedivat/al-folio/issues/1828#issuecomment-1773909757).
 
 

@@ -18,3 +18,9 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/solid",
   "font-awesome/regular"
 ;
+
+/* Add this to the bottom of your main.scss or a similar file */
+hr {
+  border-top: 1px solid #ccc; /* Change #ccc to a color visible in both light and dark mode */
+}
+
