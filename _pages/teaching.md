@@ -33,7 +33,7 @@ nav_order: 5
 ### [EG-219](https://intranet.swan.ac.uk/catalogue/default.asp?type=moddetail&dept=any&mod=EG-219&ayr=21%2F22&psl=TB1&detailOnly=false) : Statistical Methods in Engineering
   * **Term(s) Taught:** Sep - Dec 2021
   * **Module coordinator:** Dr Claire Barnes
-  * Provided guidance to students in completing of a number of projects: race car drag coefficients, wind speed estimation, biocomposite breaking strength, coastal defence analysis, statistical inference, road surface durability study, linear regression, wave power generation, strength testing in construction material.
+  * **Computer labs:** Provided guidance to students in completing of a number of projects: race car drag coefficients, wind speed estimation, biocomposite breaking strength, coastal defence analysis, statistical inference, road surface durability study, linear regression, wave power generation, strength testing in construction material.
 
 ---
 
@@ -41,6 +41,7 @@ nav_order: 5
   * **Term(s) Taught:** Jan - Apr 2022
   * **Module coordinator:** Dr Z Jelic
   * **Lab experiment:** Provided guidance to students in hands-on laboratory sessions focused on vibration studies of a cantilever beam. My role involved helping them understand and conduct three key tests: Decay Test, Broadband Test, and Stepped Sine Test. This assistance was crucial in enabling students to practically apply theoretical concepts, observe the dynamic responses of the beam under various conditions, and gain a deeper understanding of the complexities in aerospace engineering vibration analysis.
+
 ---
 
 ### [EGA324](https://intranet.swan.ac.uk/catalogue/default.asp?type=moddetail&dept=any&mod=EGA324&ayr=23/24&psl=TB1%2B2&detailOnly=false) : Mechanical Engineering Practice
@@ -54,6 +55,7 @@ nav_order: 5
   * **Term(s) Taught:** Sep - Dec 2022
   * **Module coordinator:**: Dr S Li
   * **Computer labs:** Assisted students with simulating mobile robotic cars in MATLAB Simulink. The coursework covers forward and inverse kinematics, differential kinematics including linear and angular velocities and accelerations. It also included trajectory planning using polynomial and LSPB methods, and understanding robot controllers in both open and closed-loop contexts.
+  
 ---
 
 ### [EGA334](https://intranet.swan.ac.uk/catalogue/default.asp?type=moddetail&dept=any&mod=EGA334&ayr=23/24&psl=TB1&detailOnly=false) : Mechanical Engineering Design 3
