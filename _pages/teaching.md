@@ -53,13 +53,13 @@ nav_order: 5
 
 ### [EGA366](https://intranet.swan.ac.uk/catalogue/default.asp?type=moddetail&dept=any&mod=EGA366&ayr=24/25&psl=TB1&detailOnly=false) : Kinematics and Programming for Robot
   * **Term(s) Taught:** Sep - Dec 2022
-  * **Module coordinator:**: Dr S Li
+  * **Module coordinator:** Dr S Li
   * **Computer labs:** Assisted students with simulating mobile robotic cars in MATLAB Simulink. The coursework covers forward and inverse kinematics, differential kinematics including linear and angular velocities and accelerations. It also included trajectory planning using polynomial and LSPB methods, and understanding robot controllers in both open and closed-loop contexts.
-  
+
 ---
 
 ### [EGA334](https://intranet.swan.ac.uk/catalogue/default.asp?type=moddetail&dept=any&mod=EGA334&ayr=23/24&psl=TB1&detailOnly=false) : Mechanical Engineering Design 3
   * **Term(s) Taught:** Sep - Dec 2023
-  * **Module coordinator:**: Dr M Togneri
+  * **Module coordinator:** Dr M Togneri
   * **Computer labs:** Assisted the students with analysis and design of a remote controlled car in SolidWorks. The students were required to create CAD models of crash structure, roll cage, steering, chassis and wheels. Later the parts were printed and marking was based on the weight and size limits, roll cage strength, crash structure protection from crashes, time to traverse 10m, turning ability through simple course.
 
