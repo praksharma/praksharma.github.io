@@ -8,7 +8,7 @@ nav_order: 5
 ---
 
 ### [EG-3066](https://intranet.swan.ac.uk/catalogue/default.asp?type=moddetail&dept=any&mod=EG-3066&ayr=22/23&psl=TB2&detailOnly=false) : Industry 4.0
-  * **Term(s) Taught:** Jan - Apr 2022, Jan - Apr 2023
+  * **Term(s) Taught:** Jan - Apr 2022, Jan - Apr 2023, Jan - May 2024
   * **Module coordinator:** Dr JS Thompson
   * **Data analytics laboratory:** Assisted students with two projects. The first focused on predictive maintenance of jet engines using various clustering techniques. The second involved classifying human activities (e.g., walking, climbing stairs, sitting, standing, laying) based on accelerometer and gyroscope data.
   * **Virtual reality labs:**  Guided students in basic usage of VR headsets. Organized applications simulating maintenance of a car, operation of a ship deck, and management of a warehouse.
