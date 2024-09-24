@@ -39,9 +39,14 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Data Scientist
+      institution: Culham Centre for Fusion Energy, UKAEA
+      year: Nov 2024 - Present
+      description:
+        -  Developing machine learning models for fusion energy components.
     - title: Teaching Assistant
       institution: Faculty of Science and Engineering, Swansea University
-      year: 2021 - Present
+      year: Sep 2021 - May 2024
       description:
         -  Responsible for conducting labs, grading the exam sheets and helping students assignments.
     - title: Research Intern

@@ -2,9 +2,9 @@ github_users:
   - praksharma
 
 github_repos:
-  - praksharma/PINN_Hyperparameter_Tuning
+  - praksharma/PINN_hyperparameter_tuning_codes 
   - praksharma/Stiff-PDEs-and-Physics-Informed-Neural-Networks
-  - praksharma/Solution_Reconstruction_Workflow
   - praksharma/Sunbird
   - praksharma/DeepINN
   - praksharma/Blender-renders
+  - praksharma/LinuxSucks

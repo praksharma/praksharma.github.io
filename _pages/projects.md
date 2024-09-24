@@ -8,14 +8,18 @@ nav_order: 2
 ---
 
 ## Journal Reviewer
-* [Archives of Computational Methods in Engineering, Springer Nature](https://www.springer.com/journal/11831) (3)
+* [Archives of Computational Methods in Engineering, Springer Nature](https://www.springer.com/journal/11831) (1)
 * [International Journal for Numerical Methods in Biomedical Engineering, Wiley](https://onlinelibrary.wiley.com/journal/20407947) (1)
 * [Numerical heat transfer. Part B. Fundamentals, Taylor & Francis](https://www.tandfonline.com/journals/unhb20) (2)
+* [International Journal of Applied and Computational Mathematics, Springer](https://portal.issn.org/resource/ISSN/2349-5103) (1)
+* [Scientific Reports, Nature](https://www.nature.com/srep/) (2)
+* [Nonlinear Dynamics, Springer](https://link.springer.com/journal/11071) (2)
 
 ## Conference Papers
 * Comparative Study of Rectangular Plates and Skew Plates. National Conference on Emerging Trends in Science, Technology & Management (ETSTM). Ashoka Institute of Technology and Management, ISBN 978-93-5321-249-0, pp.257-261. Nov 2018.
 
 ## Conference Presentations
+* Solution reconstruction of HIVE sample using physics-informed neural networks. [ThermaEComp](https://ukacm.org/), Montenegro. 9-11 Sep 2024
 * Physics-informed neural networks (PINNs) for solving forward and inverse thermal problems. [Conference on Artificial Intelligence](http://cdt-aimlac.org/cdt-conference2023.html), Machine Learning and Advanced Computing (AIMLAC), Swansea University. 7-9 Jun 2023.
 * Hyperparameter Tuning of Physics-Informed Neural Networks (PINNs): Application to Discontinuous Heat Transfer Problems. [Annual Conference of UK Association for Computational Mechanics](https://sites.google.com/view/ukacm2023conference/home), University of Warwick. 19-21 Apr 2023.
 
