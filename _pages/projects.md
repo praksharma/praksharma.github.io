@@ -14,6 +14,7 @@ nav_order: 2
 * [International Journal of Applied and Computational Mathematics, Springer](https://portal.issn.org/resource/ISSN/2349-5103) (1)
 * [Scientific Reports, Nature](https://www.nature.com/srep/) (2)
 * [Nonlinear Dynamics, Springer](https://link.springer.com/journal/11071) (2)
+* [The Journal of Supercomputing, Springer](https://link.springer.com/journal/11227) (1)
 
 ## Conference Papers
 * Comparative Study of Rectangular Plates and Skew Plates. National Conference on Emerging Trends in Science, Technology & Management (ETSTM). Ashoka Institute of Technology and Management, ISBN 978-93-5321-249-0, pp.257-261. Nov 2018.
