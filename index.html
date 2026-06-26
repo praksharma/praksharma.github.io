@@ -1,0 +1,1425 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic profile of Prakhar Sharma, Data Scientist at UK Atomic Energy Authority.">
+    <meta name="author" content="Prakhar Sharma">
+    <meta name="theme-color" content="#0f766e">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Prakhar Sharma | Academic Profile">
+    <meta property="og:description" content="Academic profile, publications, teaching, and contact information for Prakhar Sharma.">
+    <meta property="og:url" content="https://praksharma.github.io/">
+    <meta property="og:image" content="https://praksharma.github.io/assets/img/bio-photo.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Prakhar Sharma | Academic Profile">
+    <meta name="twitter:description" content="Academic profile, publications, teaching, and contact information for Prakhar Sharma.">
+    <meta name="twitter:image" content="https://praksharma.github.io/assets/img/bio-photo.jpg">
+    <title>Prakhar Sharma | Academic Profile</title>
+    <link rel="canonical" href="https://praksharma.github.io/">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230f172a'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%235eead4' stroke-width='4'/%3E%3Cpath d='M18 36c8-18 20-18 28 0' fill='none' stroke='%23fbbf24' stroke-width='4' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23f8fafc'/%3E%3C/svg%3E">
+    <!-- Tailwind CSS with Typography plugin -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <!-- FontAwesome for beautiful academic icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Marked.js for rendering Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Prakhar Sharma",
+            "jobTitle": "Data Scientist",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "UK Atomic Energy Authority"
+            },
+            "url": "https://praksharma.github.io/",
+            "email": "mailto:prakhar.sharma@ukaea.uk",
+            "sameAs": [
+                "https://github.com/praksharma",
+                "https://orcid.org/0000-0002-7635-1857",
+                "https://scholar.google.com/citations?user=WYPgd2cAAAAJ",
+                "https://www.linkedin.com/in/prak-sharma/"
+            ]
+        }
+    </script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            light: '#0f766e',
+                            dark: '#5eead4',
+                            accent: '#f59e0b'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :root {
+            --accent-blue: #2563eb;
+            --accent-teal: #0f766e;
+            --accent-amber: #b45309;
+            --panel-light: rgba(255, 255, 255, 0.86);
+            --panel-dark: rgba(15, 23, 42, 0.82);
+        }
+
+        body {
+            background-image:
+                linear-gradient(rgba(15, 23, 42, 0.035) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(15, 23, 42, 0.035) 1px, transparent 1px);
+            background-size: 28px 28px;
+        }
+
+        :focus-visible {
+            outline: 3px solid rgba(20, 184, 166, 0.65);
+            outline-offset: 3px;
+        }
+
+        .skip-link {
+            position: fixed;
+            left: 1rem;
+            top: 1rem;
+            z-index: 100;
+            transform: translateY(-150%);
+            border-radius: 8px;
+            background: #0f766e;
+            color: #fff;
+            padding: 0.7rem 0.95rem;
+            font-weight: 800;
+            box-shadow: 0 12px 30px rgba(15, 23, 42, 0.22);
+            transition: transform 160ms ease;
+        }
+
+        .skip-link:focus {
+            transform: translateY(0);
+        }
+
+        .dark body {
+            background-image:
+                linear-gradient(rgba(148, 163, 184, 0.075) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(148, 163, 184, 0.075) 1px, transparent 1px);
+        }
+
+        .glass-panel {
+            background: var(--panel-light);
+            border: 1px solid rgba(203, 213, 225, 0.72);
+            box-shadow: 0 22px 55px rgba(15, 23, 42, 0.08);
+            backdrop-filter: blur(18px);
+        }
+
+        .dark .glass-panel {
+            background: var(--panel-dark);
+            border-color: rgba(71, 85, 105, 0.72);
+            box-shadow: 0 22px 55px rgba(0, 0, 0, 0.28);
+        }
+
+        .research-hero {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #0f172a;
+            color: #f8fafc;
+            box-shadow: 0 24px 70px rgba(15, 23, 42, 0.22);
+        }
+
+        .research-hero::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(120deg, rgba(255, 255, 255, 0.09) 1px, transparent 1px),
+                linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+            background-size: 68px 68px, 34px 34px;
+            mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.42));
+            pointer-events: none;
+        }
+
+        .research-hero-canvas {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.78;
+        }
+
+        .research-hero-inner {
+            position: relative;
+            z-index: 1;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            color: #a7f3d0;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0;
+            text-transform: uppercase;
+        }
+
+        .eyebrow::before {
+            content: "";
+            width: 0.65rem;
+            height: 0.65rem;
+            border-radius: 999px;
+            background: #fbbf24;
+            box-shadow: 0 0 0 5px rgba(251, 191, 36, 0.16);
+        }
+
+        .hero-action {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.55rem;
+            min-height: 2.65rem;
+            border-radius: 8px;
+            padding: 0.65rem 0.9rem;
+            font-weight: 700;
+            transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease;
+        }
+
+        .hero-action:hover {
+            transform: translateY(-1px);
+        }
+
+        .research-map {
+            position: relative;
+            min-height: 16.5rem;
+        }
+
+        .research-map::before,
+        .research-map::after {
+            content: "";
+            position: absolute;
+            inset: 14%;
+            border: 1px solid rgba(167, 243, 208, 0.24);
+            border-radius: 999px;
+            transform: rotate(-12deg);
+        }
+
+        .research-map::after {
+            inset: 24%;
+            border-color: rgba(251, 191, 36, 0.26);
+            transform: rotate(22deg);
+        }
+
+        .research-node {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            gap: 0.45rem;
+            max-width: 10rem;
+            border-radius: 8px;
+            border: 1px solid rgba(226, 232, 240, 0.24);
+            background: rgba(15, 23, 42, 0.68);
+            padding: 0.55rem 0.65rem;
+            color: #f8fafc;
+            font-size: 0.78rem;
+            font-weight: 700;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(12px);
+        }
+
+        .research-node i {
+            color: #fbbf24;
+        }
+
+        .node-core {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(20, 184, 166, 0.22);
+            border-color: rgba(94, 234, 212, 0.38);
+        }
+
+        .node-pinns {
+            left: 4%;
+            top: 12%;
+        }
+
+        .node-fusion {
+            right: 3%;
+            top: 18%;
+        }
+
+        .node-python {
+            left: 2%;
+            bottom: 13%;
+        }
+
+        .node-mechanics {
+            right: 4%;
+            bottom: 10%;
+        }
+
+        .profile-card {
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .content-layout {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: minmax(0, 1fr);
+            align-items: start;
+        }
+
+        .profile-toggle {
+            position: absolute;
+            right: 0.75rem;
+            top: 0.75rem;
+            display: none;
+            width: 2.15rem;
+            height: 2.15rem;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            border: 1px solid rgba(203, 213, 225, 0.72);
+            color: #475569;
+            background: rgba(255, 255, 255, 0.7);
+            transition: transform 160ms ease, color 160ms ease, border-color 160ms ease, background-color 160ms ease;
+        }
+
+        .profile-toggle:hover {
+            color: #0f766e;
+            border-color: rgba(15, 118, 110, 0.4);
+            background: rgba(240, 253, 250, 0.88);
+            transform: translateY(-1px);
+        }
+
+        .dark .profile-toggle {
+            color: #cbd5e1;
+            border-color: rgba(71, 85, 105, 0.72);
+            background: rgba(15, 23, 42, 0.72);
+        }
+
+        .dark .profile-toggle:hover {
+            color: #5eead4;
+            border-color: rgba(94, 234, 212, 0.38);
+            background: rgba(20, 184, 166, 0.12);
+        }
+
+        .profile-collapsed {
+            display: none;
+        }
+
+        .profile-image-ring {
+            background:
+                linear-gradient(#fff, #fff) padding-box,
+                linear-gradient(135deg, #0f766e, #2563eb, #f59e0b) border-box;
+            border: 4px solid transparent;
+        }
+
+        .dark .profile-image-ring {
+            background:
+                linear-gradient(#1e293b, #1e293b) padding-box,
+                linear-gradient(135deg, #14b8a6, #60a5fa, #fbbf24) border-box;
+        }
+
+        .thread-list {
+            border-top: 1px solid rgba(203, 213, 225, 0.72);
+        }
+
+        .dark .thread-list {
+            border-color: rgba(71, 85, 105, 0.72);
+        }
+
+        .thread-item {
+            display: grid;
+            grid-template-columns: 0.35rem minmax(0, 1fr);
+            gap: 0.75rem;
+            align-items: start;
+        }
+
+        .thread-item::before {
+            content: "";
+            width: 0.35rem;
+            height: 100%;
+            min-height: 2.25rem;
+            border-radius: 999px;
+            background: var(--thread-color, var(--accent-blue));
+        }
+
+        .content-shell {
+            border-radius: 8px;
+            scroll-margin-top: 5.5rem;
+        }
+
+        .content-shell.prose h1 {
+            font-size: 2rem;
+            line-height: 1.15;
+        }
+
+        .content-shell.prose h2 {
+            border-top: 1px solid rgba(203, 213, 225, 0.72);
+            padding-top: 1.25rem;
+        }
+
+        .dark .content-shell.prose h2 {
+            border-color: rgba(71, 85, 105, 0.72);
+        }
+
+        .content-shell[data-page] {
+            --page-accent: #0f766e;
+            --page-accent-soft: rgba(15, 118, 110, 0.1);
+            --page-border: rgba(15, 118, 110, 0.28);
+        }
+
+        .content-shell[data-page="publications"] {
+            --page-accent: #2563eb;
+            --page-accent-soft: rgba(37, 99, 235, 0.1);
+            --page-border: rgba(37, 99, 235, 0.28);
+        }
+
+        .content-shell[data-page="teaching"] {
+            --page-accent: #b45309;
+            --page-accent-soft: rgba(180, 83, 9, 0.12);
+            --page-border: rgba(180, 83, 9, 0.3);
+        }
+
+        .content-shell[data-page="cv"] {
+            --page-accent: #7c3aed;
+            --page-accent-soft: rgba(124, 58, 237, 0.1);
+            --page-border: rgba(124, 58, 237, 0.26);
+        }
+
+        .content-shell[data-page="projects"] {
+            --page-accent: #0e7490;
+            --page-accent-soft: rgba(14, 116, 144, 0.1);
+            --page-border: rgba(14, 116, 144, 0.28);
+        }
+
+        .content-shell[data-page="blog"] {
+            --page-accent: #be123c;
+            --page-accent-soft: rgba(190, 18, 60, 0.09);
+            --page-border: rgba(190, 18, 60, 0.25);
+        }
+
+        .content-shell[data-page="contact"] {
+            --page-accent: #0f766e;
+            --page-accent-soft: rgba(15, 118, 110, 0.12);
+            --page-border: rgba(15, 118, 110, 0.28);
+        }
+
+        .content-shell[data-page] h1 {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .content-shell[data-page] h1::before {
+            content: "";
+            display: inline-block;
+            width: 0.72rem;
+            height: 2.1rem;
+            border-radius: 999px;
+            background: var(--page-accent);
+            box-shadow: 0 0 0 6px var(--page-accent-soft);
+        }
+
+        .content-shell[data-page] h2 {
+            color: var(--page-accent);
+        }
+
+        .content-shell[data-page="about"] ul,
+        .content-shell[data-page="projects"] ul,
+        .content-shell[data-page="contact"] ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+            gap: 0.85rem;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .content-shell[data-page="about"] li,
+        .content-shell[data-page="projects"] li,
+        .content-shell[data-page="contact"] li {
+            margin: 0;
+            border: 1px solid var(--page-border);
+            border-radius: 8px;
+            background: var(--page-accent-soft);
+            padding: 0.95rem 1rem;
+            line-height: 1.55;
+        }
+
+        .page-kicker {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            margin-bottom: 1.1rem;
+            border: 1px solid var(--page-border);
+            border-radius: 999px;
+            background: var(--page-accent-soft);
+            padding: 0.35rem 0.7rem;
+            color: var(--page-accent);
+            font-size: 0.78rem;
+            font-weight: 800;
+        }
+
+        .publication-list,
+        .teaching-timeline,
+        .cv-grid {
+            display: grid;
+            gap: 1rem;
+            margin-top: 1.4rem;
+        }
+
+        .publication-year {
+            display: inline-flex;
+            width: fit-content;
+            align-items: center;
+            margin: 1.2rem 0 0.1rem;
+            border-top: 0 !important;
+            border-radius: 999px;
+            background: var(--page-accent-soft);
+            color: var(--page-accent);
+            padding: 0.32rem 0.7rem;
+            font-size: 0.82rem;
+            font-weight: 900;
+        }
+
+        .publication-card,
+        .teaching-item,
+        .cv-card {
+            position: relative;
+            border: 1px solid var(--page-border);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.54);
+            padding: 1.15rem 1.25rem;
+            box-shadow: 0 14px 34px rgba(15, 23, 42, 0.055);
+        }
+
+        .dark .publication-card,
+        .dark .teaching-item,
+        .dark .cv-card {
+            background: rgba(15, 23, 42, 0.48);
+            box-shadow: 0 14px 34px rgba(0, 0, 0, 0.16);
+        }
+
+        .publication-card {
+            border-left: 0.38rem solid var(--page-accent);
+        }
+
+        .publication-card h3,
+        .teaching-item h3,
+        .cv-card h2 {
+            margin-top: 0;
+        }
+
+        .publication-card details {
+            margin-top: 0.85rem;
+            border-top: 1px solid var(--page-border);
+            padding-top: 0.85rem;
+        }
+
+        .publication-card summary {
+            color: var(--page-accent);
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .publication-card a[href*="doi.org"] {
+            display: inline-flex;
+            align-items: center;
+            border-radius: 999px;
+            background: var(--page-accent);
+            color: #fff;
+            padding: 0.38rem 0.7rem;
+            font-size: 0.82rem;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .teaching-timeline {
+            position: relative;
+            margin-left: 0.35rem;
+        }
+
+        .teaching-timeline::before {
+            content: "";
+            position: absolute;
+            bottom: 0.5rem;
+            left: 0.64rem;
+            top: 0.5rem;
+            width: 2px;
+            background: var(--page-border);
+        }
+
+        .teaching-item {
+            margin-left: 2rem;
+        }
+
+        .teaching-item::before {
+            content: "";
+            position: absolute;
+            left: -2.04rem;
+            top: 1.25rem;
+            width: 0.85rem;
+            height: 0.85rem;
+            border: 3px solid var(--page-accent);
+            border-radius: 999px;
+            background: #fff;
+            box-shadow: 0 0 0 5px var(--page-accent-soft);
+        }
+
+        .dark .teaching-item::before {
+            background: #0f172a;
+        }
+
+        .cv-grid {
+            grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        }
+
+        .cv-card h2 {
+            border-top: 0 !important;
+            padding-top: 0 !important;
+        }
+
+        .content-shell[data-page="contact"] li a {
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .content-shell[data-page="blog"] p,
+        .content-shell[data-page="blog"] ul {
+            border: 1px solid var(--page-border);
+            border-radius: 8px;
+            background: var(--page-accent-soft);
+            padding: 1rem 1.15rem;
+        }
+
+        .content-shell[data-page="blog"] ul {
+            list-style: none;
+            padding-left: 1.15rem;
+        }
+
+        @media (min-width: 1024px) {
+            .profile-toggle {
+                display: inline-flex;
+            }
+
+            .content-layout {
+                grid-template-columns: minmax(15rem, 18rem) minmax(0, 1fr);
+                transition: grid-template-columns 220ms ease;
+            }
+
+            .content-layout.sidebar-collapsed {
+                grid-template-columns: 4.9rem minmax(0, 1fr);
+            }
+
+            .content-layout.sidebar-collapsed .profile-card {
+                padding: 0.65rem;
+            }
+
+            .content-layout.sidebar-collapsed .profile-expanded {
+                display: none;
+            }
+
+            .content-layout.sidebar-collapsed .profile-collapsed {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0.75rem;
+                padding-top: 2.5rem;
+            }
+
+            .content-layout.sidebar-collapsed .profile-toggle i {
+                transform: rotate(180deg);
+            }
+
+            .content-layout.sidebar-collapsed .profile-image-ring {
+                width: 3.15rem;
+                height: 3.15rem;
+                margin: 0;
+                border-width: 3px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .research-node {
+                max-width: 8.5rem;
+                font-size: 0.72rem;
+                padding: 0.5rem;
+            }
+
+            .research-map {
+                min-height: 14rem;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .hero-action,
+            * {
+                animation-duration: 0.001ms !important;
+                animation-iteration-count: 1 !important;
+                scroll-behavior: auto !important;
+                transition-duration: 0.001ms !important;
+            }
+        }
+    </style>
+    <script>
+        (function setInitialTheme() {
+            const prefersDark = typeof window.matchMedia === 'function' && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            try {
+                const storedTheme = localStorage.getItem('theme');
+                if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
+                    document.documentElement.classList.add('dark');
+                }
+            } catch (error) {
+                if (prefersDark) {
+                    document.documentElement.classList.add('dark');
+                }
+            }
+        })();
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300 min-h-screen flex flex-col selection:bg-teal-200 selection:text-slate-950">
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-white/80 dark:bg-slate-950/80 border-b border-slate-200 dark:border-slate-800 transition-colors">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="#about" class="text-xl font-bold bg-gradient-to-r from-teal-600 via-blue-600 to-amber-500 bg-clip-text text-transparent hover:opacity-80 transition">
+                Prakhar Sharma
+            </a>
+            
+            <nav class="hidden md:flex space-x-6 items-center">
+                <a href="#about" class="nav-link font-medium transition-colors py-1">About</a>
+                <a href="#publications" class="nav-link font-medium transition-colors py-1">Publications</a>
+                <a href="#projects" class="nav-link font-medium transition-colors py-1">Projects</a>
+                <a href="#cv" class="nav-link font-medium transition-colors py-1">CV</a>
+                <a href="#blog" class="nav-link font-medium transition-colors py-1">Blog</a>
+                <a href="#teaching" class="nav-link font-medium transition-colors py-1">Teaching</a>
+                <a href="#contact" class="nav-link font-medium transition-colors py-1">Contact</a>
+                
+                <!-- Dark Mode Toggle -->
+                <button id="theme-toggle" class="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-400 transition" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon dark:hidden"></i>
+                    <i class="fa-solid fa-sun hidden dark:inline"></i>
+                </button>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <div class="flex items-center md:hidden space-x-4">
+                <button id="mobile-theme-toggle" class="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-400 transition" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon dark:hidden"></i>
+                    <i class="fa-solid fa-sun hidden dark:inline"></i>
+                </button>
+                <button id="mobile-menu-btn" class="p-2 text-slate-600 dark:text-slate-300" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <i class="fa-solid fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 px-4 py-4 space-y-3">
+            <a href="#about" class="mobile-nav-link block font-medium py-1">About</a>
+            <a href="#publications" class="mobile-nav-link block font-medium py-1">Publications</a>
+            <a href="#projects" class="mobile-nav-link block font-medium py-1">Projects</a>
+            <a href="#cv" class="mobile-nav-link block font-medium py-1">CV</a>
+            <a href="#blog" class="mobile-nav-link block font-medium py-1">Blog</a>
+            <a href="#teaching" class="mobile-nav-link block font-medium py-1">Teaching</a>
+            <a href="#contact" class="mobile-nav-link block font-medium py-1">Contact</a>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 flex-grow w-full">
+        <div id="content-layout" class="content-layout">
+            
+            <aside>
+                <div class="profile-card glass-panel lg:sticky lg:top-24 p-6 text-center">
+                    <button id="profile-toggle" class="profile-toggle" type="button" aria-label="Collapse profile panel" aria-controls="profile-panel-content" aria-expanded="true">
+                        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                    </button>
+
+                    <div id="profile-panel-content" class="profile-expanded">
+                        <div class="profile-image-ring relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
+                            <img src="assets/img/bio-photo.jpg" onerror="this.onerror=null; this.src='old/assets/img/bio-photo.jpg';" alt="Prakhar Sharma" class="object-cover w-full h-full" loading="eager" decoding="async">
+                        </div>
+                        <h2 class="text-xl font-bold text-slate-800 dark:text-white mb-1">Prakhar Sharma</h2>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 mb-4">Data Scientist, Fusion Energy</p>
+                        
+                        <div class="flex justify-center space-x-4 text-lg text-slate-600 dark:text-slate-400 mb-6">
+                            <a href="https://github.com/praksharma" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="hover:text-teal-600 dark:hover:text-teal-300 transition"><i class="fa-brands fa-github"></i></a>
+                            <a href="mailto:prakhar.sharma@ukaea.uk" aria-label="Email" class="hover:text-teal-600 dark:hover:text-teal-300 transition"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="https://orcid.org/0000-0002-7635-1857" target="_blank" rel="noopener noreferrer" aria-label="ORCID" class="hover:text-teal-600 dark:hover:text-teal-300 transition"><i class="fa-brands fa-orcid"></i></a>
+                            <a href="https://scholar.google.com/citations?user=WYPgd2cAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" class="hover:text-teal-600 dark:hover:text-teal-300 transition"><i class="fa-solid fa-graduation-cap"></i></a>
+                        </div>
+                        
+                        <div class="text-xs text-slate-400 dark:text-slate-500 border-t border-slate-100 dark:border-slate-700/50 pt-4 mb-5">
+                            UK Atomic Energy Authority
+                        </div>
+
+                        <div class="thread-list pt-5 text-left space-y-4">
+                            <div class="thread-item" style="--thread-color: #0f766e;">
+                                <div>
+                                    <div class="text-sm font-bold text-slate-800 dark:text-slate-100">Fusion data</div>
+                                    <div class="text-xs leading-5 text-slate-500 dark:text-slate-400">diagnostics, imaging, analysis</div>
+                                </div>
+                            </div>
+                            <div class="thread-item" style="--thread-color: #2563eb;">
+                                <div>
+                                    <div class="text-sm font-bold text-slate-800 dark:text-slate-100">Scientific ML</div>
+                                    <div class="text-xs leading-5 text-slate-500 dark:text-slate-400">PINNs, operators, surrogates</div>
+                                </div>
+                            </div>
+                            <div class="thread-item" style="--thread-color: #b45309;">
+                                <div>
+                                    <div class="text-sm font-bold text-slate-800 dark:text-slate-100">Research software</div>
+                                    <div class="text-xs leading-5 text-slate-500 dark:text-slate-400">Python tooling and workflows</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-collapsed">
+                        <div class="profile-image-ring relative rounded-full overflow-hidden">
+                            <img src="assets/img/bio-photo.jpg" onerror="this.onerror=null; this.src='old/assets/img/bio-photo.jpg';" alt="" class="object-cover w-full h-full" loading="eager" decoding="async">
+                        </div>
+                        <div class="flex flex-col items-center gap-3 text-base text-slate-600 dark:text-slate-400">
+                            <a href="https://github.com/praksharma" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="hover:text-teal-600 dark:hover:text-teal-300 transition"><i class="fa-brands fa-github"></i></a>
+                            <a href="mailto:prakhar.sharma@ukaea.uk" aria-label="Email" class="hover:text-teal-600 dark:hover:text-teal-300 transition"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="https://scholar.google.com/citations?user=WYPgd2cAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" class="hover:text-teal-600 dark:hover:text-teal-300 transition"><i class="fa-solid fa-graduation-cap"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <section>
+                <div id="main-content" class="content-shell glass-panel prose prose-slate dark:prose-invert max-w-none p-8 sm:p-10 min-h-[500px]" tabindex="-1" aria-live="polite">
+                    <!-- Dynamic content loads here -->
+                </div>
+            </section>
+
+        </div>
+
+        <section class="research-hero mt-8" aria-labelledby="research-title">
+            <canvas id="fusion-field" class="research-hero-canvas" aria-hidden="true"></canvas>
+            <div class="research-hero-inner grid grid-cols-1 lg:grid-cols-5 gap-8 p-6 sm:p-8 lg:p-10">
+                <div class="lg:col-span-3 flex flex-col justify-center">
+                    <p class="eyebrow mb-4">Filler</p>
+                    <h2 id="research-title" class="text-2xl sm:text-3xl font-black leading-tight max-w-3xl">
+                        Filler
+                    </h2>
+                    <p class="mt-5 max-w-2xl text-base sm:text-lg leading-8 text-slate-200">
+                        Filler paragraph.
+                    </p>
+                    <div class="mt-7 flex flex-wrap gap-3">
+                        <a href="#publications" class="hero-action bg-teal-300 text-slate-950 hover:bg-teal-200">
+                            <i class="fa-solid fa-book-open" aria-hidden="true"></i>
+                            Publications
+                        </a>
+                        <a href="#cv" class="hero-action border border-white/20 bg-white/10 text-white hover:border-white/40 hover:bg-white/20">
+                            <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
+                            CV
+                        </a>
+                        <a href="#contact" class="hero-action border border-white/20 bg-white/10 text-white hover:border-white/40 hover:bg-white/20">
+                            <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                            Contact
+                        </a>
+                    </div>
+                    <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl">
+                        <div>
+                            <div class="text-2xl font-black text-amber-300">3</div>
+                            <div class="text-sm text-slate-300">selected papers</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl font-black text-teal-200">8</div>
+                            <div class="text-sm text-slate-300">teaching modules</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl font-black text-sky-200">2026</div>
+                            <div class="text-sm text-slate-300">site refresh</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-2 research-map" aria-label="Research themes">
+                    <div class="research-node node-core">
+                        <i class="fa-solid fa-atom" aria-hidden="true"></i>
+                        Fusion Data
+                    </div>
+                    <div class="research-node node-pinns">
+                        <i class="fa-solid fa-wave-square" aria-hidden="true"></i>
+                        PINNs
+                    </div>
+                    <div class="research-node node-fusion">
+                        <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+                        Diagnostics
+                    </div>
+                    <div class="research-node node-python">
+                        <i class="fa-brands fa-python" aria-hidden="true"></i>
+                        Scientific Python
+                    </div>
+                    <div class="research-node node-mechanics">
+                        <i class="fa-solid fa-gears" aria-hidden="true"></i>
+                        Mechanics
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-6 mt-12 transition-colors">
+        <div class="max-w-7xl mx-auto px-4 text-center text-sm text-slate-500 dark:text-slate-400">
+            © 2026 Prakhar Sharma. Built with Tailwind CSS and Markdown using OpenAI Codex.
+        </div>
+    </footer>
+
+    <noscript>
+        <div class="fixed inset-x-4 bottom-4 z-50 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm font-medium text-amber-950 shadow-lg">
+            JavaScript is disabled, so section navigation cannot load Markdown pages here. Open the files in the content folder directly, or enable JavaScript for the single-page version.
+        </div>
+    </noscript>
+
+    <script>
+        const embeddedMarkdown = {
+            about: `# About Me
+
+I am currently a Data Scientist at the [Culham Centre for Fusion Energy, UK Atomic Energy Authority (UKAEA)](https://www.uk-atomic-energy.org.uk/). I recently completed my PhD in Mechanical Engineering at the [Zienkiewicz Institute for Modelling, Data and AI](https://www.swansea.ac.uk/science-and-engineering/research/zienkiewicz-institute-for-modelling-data-ai/) at [Swansea University](https://www.swansea.ac.uk/).
+
+I obtained my M.Sc. in Computational Mechanics from Swansea University in 2021 and my B.Tech. in Civil Engineering from [APJ Abdul Kalam Technological University](https://aktu.ac.in/) in 2019.
+
+## Research Interests
+
+- Physics-informed neural networks and neural operators
+- Scientific Python software development
+- Fusion energy data science and experimental analysis
+- Computational mechanics and numerical methods`,
+
+            publications: `# Selected Publications
+
+## 2023
+
+### Stiff-PDEs and Physics-Informed Neural Networks
+
+**Prakhar Sharma**, Llion Evans, Michelle Tindall, Perumal Nithiarasu
+
+*Archives of Computational Methods in Engineering*, Springer.
+
+[DOI](https://doi.org/10.1007/s11831-023-09890-4)
+
+<details>
+<summary>Read abstract</summary>
+
+This review investigates physics-informed neural network frameworks for stiff PDEs, including heat conduction problems with discontinuous corner solutions, comparisons against FEM solutions, and discussion of PINN challenges and future directions.
+
+</details>
+
+---
+
+### Hyperparameter selection for physics-informed neural networks (PINNs) - Application to discontinuous heat conduction problems
+
+**Prakhar Sharma**, Llion Evans, Michelle Tindall, Perumal Nithiarasu
+
+*Numerical Heat Transfer, Part B: Fundamentals*, Taylor & Francis.
+
+[DOI](https://doi.org/10.1080/10407790.2023.2264489)
+
+<details>
+<summary>Read abstract</summary>
+
+This work studies hyperparameter optimization for PINNs applied to heat conduction problems with discontinuous boundary conditions or coefficients, identifying neural network settings that achieve low relative error across benchmark cases.
+
+</details>
+
+## 2022
+
+### EnKF data-driven reduced order assimilation system
+
+C. Liu, R. Fu, D. Xiao, R. Stefanescu, **P. Sharma**, C. Zhu, S. Sun, C. Wang
+
+*Engineering Analysis with Boundary Elements*, Elsevier, 139, 46-55.
+
+[DOI](https://doi.org/10.1016/j.enganabound.2022.02.016)`,
+
+            projects: `# Projects
+
+This section is being migrated from the previous site.
+
+## Current Focus
+
+- Scientific machine learning workflows for physics and engineering problems
+- Python tooling for reproducible computational research
+- Fusion data analysis and image-processing pipelines`,
+
+            cv: `# CV
+
+## Current Position
+
+**Data Scientist**, Culham Centre for Fusion Energy, UK Atomic Energy Authority (UKAEA)
+
+## Education
+
+- **PhD, Mechanical Engineering**, Swansea University
+- **M.Sc., Computational Mechanics**, Swansea University, 2021
+- **B.Tech., Civil Engineering**, APJ Abdul Kalam Technological University, 2019
+
+## Research Areas
+
+- Physics-informed neural networks
+- Neural operators
+- Computational mechanics
+- Scientific software development in Python`,
+
+            blog: `# Blog
+
+Longer-form posts are being migrated.
+
+- [WordPress archive](https://prakhar962.wordpress.com/)`,
+
+            teaching: `# Teaching
+
+### EG-3066: Industry 4.0
+
+**Terms taught:** Jan-Apr 2022, Jan-Apr 2023, Jan-May 2024
+
+Supported data analytics laboratories covering predictive maintenance, clustering techniques, and human activity classification from accelerometer and gyroscope data.
+
+### EG-M97: Advanced Solid Mechanics
+
+**Terms taught:** Sep-Dec 2022, Sep-Dec 2023
+
+Supported students with shear force and bending moment calculations for statically indeterminate beams and MATLAB collapse mechanism plots.
+
+### EGIM02: Advanced Computational Methods for Engineers
+
+**Term taught:** Sep-Dec 2021
+
+Provided guidance on numerical methods in MATLAB, including ODE solvers and convection-diffusion problems.
+
+### EG-219: Statistical Methods in Engineering
+
+**Term taught:** Sep-Dec 2021
+
+Supported project work covering regression, inference, durability studies, coastal defence analysis, and engineering statistics.
+
+### EGA229: Experimental Studies - Aerospace
+
+**Term taught:** Jan-Apr 2022
+
+Guided laboratory sessions on vibration studies of a cantilever beam, including decay, broadband, and stepped-sine tests.
+
+### EGA324: Mechanical Engineering Practice
+
+**Term taught:** Sep-Dec 2022
+
+Assisted with ANSYS Mechanical and Fluent projects covering bolted joints, subsonic wind tunnels, and stress concentration features.
+
+### EGA366: Kinematics and Programming for Robot
+
+**Term taught:** Sep-Dec 2022
+
+Supported MATLAB Simulink work on mobile robotic cars, kinematics, trajectory planning, and controllers.
+
+### EGA334: Mechanical Engineering Design 3
+
+**Term taught:** Sep-Dec 2023
+
+Assisted students with SolidWorks design and analysis of remote-controlled car components.`,
+
+            contact: `# Contact
+
+Email is the best option.
+
+- [prakhar.sharma@ukaea.uk](mailto:prakhar.sharma@ukaea.uk)
+- [GitHub](https://github.com/praksharma)
+- [Google Scholar](https://scholar.google.com/citations?user=WYPgd2cAAAAJ)
+- [ORCID](https://orcid.org/0000-0002-7635-1857)
+- [LinkedIn](https://www.linkedin.com/in/prak-sharma/)`
+        };
+
+        const pageTitles = {
+            about: 'About',
+            publications: 'Publications',
+            projects: 'Projects',
+            cv: 'CV',
+            blog: 'Blog',
+            teaching: 'Teaching',
+            contact: 'Contact'
+        };
+
+        const routes = {
+            '': 'about',
+            '#about': 'about',
+            '#publications': 'publications',
+            '#projects': 'projects',
+            '#cv': 'cv',
+            '#blog': 'blog',
+            '#teaching': 'teaching',
+            '#contact': 'contact'
+        };
+        let hasLoadedContent = false;
+
+        function renderMarkdown(markdown) {
+            if (window.marked && typeof window.marked.parse === 'function') {
+                return window.marked.parse(markdown);
+            }
+
+            return markdown
+                .trim()
+                .replace(/^### (.*)$/gm, '<h3>$1</h3>')
+                .replace(/^## (.*)$/gm, '<h2>$1</h2>')
+                .replace(/^# (.*)$/gm, '<h1>$1</h1>')
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+                .replace(/^---$/gm, '<hr>')
+                .replace(/^- (.*)$/gm, '<li>$1</li>')
+                .replace(/(<li>.*<\/li>\n?)+/g, '<ul>$&</ul>')
+                .replace(/\n{2,}/g, '<br><br>');
+        }
+
+        function setStoredTheme(theme) {
+            try {
+                localStorage.setItem('theme', theme);
+            } catch (error) {
+                // Ignore storage failures in private or restricted browser contexts.
+            }
+        }
+
+        function currentPage() {
+            return routes[window.location.hash] || 'about';
+        }
+
+        function setSidebarCollapsed(collapsed) {
+            const layout = document.getElementById('content-layout');
+            const toggle = document.getElementById('profile-toggle');
+            if (!layout || !toggle) return;
+
+            layout.classList.toggle('sidebar-collapsed', collapsed);
+            toggle.setAttribute('aria-expanded', String(!collapsed));
+            toggle.setAttribute('aria-label', collapsed ? 'Expand profile panel' : 'Collapse profile panel');
+        }
+
+        function toggleSidebar() {
+            const layout = document.getElementById('content-layout');
+            if (!layout) return;
+
+            setSidebarCollapsed(!layout.classList.contains('sidebar-collapsed'));
+        }
+
+        async function readMarkdown(page) {
+            if (window.location.protocol !== 'file:') {
+                try {
+                    const response = await fetch(`./content/${page}.md`);
+                    if (!response.ok) {
+                        throw new Error(`Missing content file: ${page}.md`);
+                    }
+                    return await response.text();
+                } catch (error) {
+                    if (!embeddedMarkdown[page]) {
+                        throw error;
+                    }
+                }
+            }
+
+            if (embeddedMarkdown[page]) {
+                return embeddedMarkdown[page];
+            }
+
+            throw new Error(`Missing content: ${page}`);
+        }
+
+        function decorateRenderedContent(container) {
+            container.querySelectorAll('a[href^="http"]').forEach(link => {
+                link.target = '_blank';
+                link.rel = 'noopener noreferrer';
+            });
+        }
+
+        function addPageKicker(page, container) {
+            const labels = {
+                about: 'Profile',
+                publications: 'Research Output',
+                projects: 'Active Work',
+                cv: 'Academic Record',
+                blog: 'Writing',
+                teaching: 'Teaching Portfolio',
+                contact: 'Get in Touch'
+            };
+            const heading = container.querySelector('h1');
+            if (!heading || !labels[page]) return;
+
+            const kicker = document.createElement('div');
+            kicker.className = 'page-kicker';
+            kicker.textContent = labels[page];
+            heading.before(kicker);
+        }
+
+        function enhancePublications(container) {
+            const firstSectionHeading = container.querySelector('h2');
+            if (!firstSectionHeading) return;
+
+            const list = document.createElement('div');
+            list.className = 'publication-list';
+            firstSectionHeading.before(list);
+
+            let node = firstSectionHeading;
+            while (node) {
+                const next = node.nextSibling;
+
+                if (node.nodeType === Node.ELEMENT_NODE && node.matches('h2')) {
+                    node.classList.add('publication-year');
+                    list.appendChild(node);
+                    node = next;
+                    continue;
+                }
+
+                if (node.nodeType === Node.ELEMENT_NODE && node.matches('h3')) {
+                    const card = document.createElement('article');
+                    card.className = 'publication-card';
+                    list.appendChild(card);
+                    card.appendChild(node);
+
+                    node = next;
+                    while (node && !(node.nodeType === Node.ELEMENT_NODE && node.matches('h2, h3'))) {
+                        const sibling = node.nextSibling;
+                        if (node.nodeType === Node.ELEMENT_NODE && node.matches('hr')) {
+                            node.remove();
+                        } else {
+                            card.appendChild(node);
+                        }
+                        node = sibling;
+                    }
+                    continue;
+                }
+
+                list.appendChild(node);
+                node = next;
+            }
+        }
+
+        function enhanceHeadingCards(container, headingSelector, wrapperClass, cardClass) {
+            const firstHeading = container.querySelector(headingSelector);
+            if (!firstHeading) return;
+
+            const wrapper = document.createElement('div');
+            wrapper.className = wrapperClass;
+            firstHeading.before(wrapper);
+
+            let node = firstHeading;
+            while (node) {
+                if (!(node.nodeType === Node.ELEMENT_NODE && node.matches(headingSelector))) {
+                    const next = node.nextSibling;
+                    wrapper.appendChild(node);
+                    node = next;
+                    continue;
+                }
+
+                const card = document.createElement('article');
+                card.className = cardClass;
+                wrapper.appendChild(card);
+                const nextHeadingSibling = node.nextSibling;
+                card.appendChild(node);
+
+                node = nextHeadingSibling;
+                while (node && !(node.nodeType === Node.ELEMENT_NODE && node.matches(headingSelector))) {
+                    const sibling = node.nextSibling;
+                    card.appendChild(node);
+                    node = sibling;
+                }
+            }
+        }
+
+        function enhanceRenderedPage(page, container) {
+            addPageKicker(page, container);
+
+            if (page === 'publications') {
+                enhancePublications(container);
+            }
+
+            if (page === 'teaching') {
+                enhanceHeadingCards(container, 'h3', 'teaching-timeline', 'teaching-item');
+            }
+
+            if (page === 'cv') {
+                enhanceHeadingCards(container, 'h2', 'cv-grid', 'cv-card');
+            }
+        }
+
+        function initFusionField() {
+            const canvas = document.getElementById('fusion-field');
+            if (!canvas || typeof canvas.getContext !== 'function') return;
+
+            const ctx = canvas.getContext('2d');
+            const reducedMotion = typeof window.matchMedia === 'function' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            let width = 0;
+            let height = 0;
+            let dpr = 1;
+            let particles = [];
+
+            function resizeCanvas() {
+                const rect = canvas.getBoundingClientRect();
+                dpr = Math.min(window.devicePixelRatio || 1, 2);
+                width = Math.max(1, Math.floor(rect.width));
+                height = Math.max(1, Math.floor(rect.height));
+                canvas.width = Math.floor(width * dpr);
+                canvas.height = Math.floor(height * dpr);
+                ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+                particles = Array.from({ length: Math.max(34, Math.floor(width / 18)) }, (_, index) => ({
+                    x: (index * 47) % width,
+                    y: (index * 83) % height,
+                    speed: 0.18 + (index % 7) * 0.035,
+                    radius: 1.1 + (index % 4) * 0.55,
+                    phase: index * 0.63
+                }));
+            }
+
+            function draw(timestamp) {
+                const time = timestamp || 0;
+                ctx.clearRect(0, 0, width, height);
+
+                for (let band = 0; band < 8; band += 1) {
+                    const baseY = height * (0.17 + band * 0.105);
+                    ctx.beginPath();
+                    for (let x = -40; x <= width + 40; x += 14) {
+                        const wave = Math.sin(x * 0.015 + time * 0.00055 + band * 0.75) * (18 + band * 1.8);
+                        const ripple = Math.cos(x * 0.033 - time * 0.00035 + band) * 7;
+                        const y = baseY + wave + ripple;
+                        if (x === -40) {
+                            ctx.moveTo(x, y);
+                        } else {
+                            ctx.lineTo(x, y);
+                        }
+                    }
+                    ctx.strokeStyle = band % 2 === 0 ? 'rgba(45, 212, 191, 0.22)' : 'rgba(251, 191, 36, 0.16)';
+                    ctx.lineWidth = band % 2 === 0 ? 1.25 : 0.85;
+                    ctx.stroke();
+                }
+
+                particles.forEach((particle, index) => {
+                    const drift = Math.sin(time * 0.0007 + particle.phase) * 18;
+                    const px = (particle.x + time * particle.speed * 0.045) % width;
+                    const py = (particle.y + drift + Math.cos(index + time * 0.0005) * 10 + height) % height;
+                    ctx.beginPath();
+                    ctx.arc(px, py, particle.radius, 0, Math.PI * 2);
+                    ctx.fillStyle = index % 3 === 0 ? 'rgba(251, 191, 36, 0.75)' : 'rgba(125, 211, 252, 0.56)';
+                    ctx.fill();
+                });
+
+                if (!reducedMotion) {
+                    window.requestAnimationFrame(draw);
+                }
+            }
+
+            resizeCanvas();
+            draw(0);
+            window.addEventListener('resize', resizeCanvas);
+        }
+
+        async function loadContent() {
+            const hash = window.location.hash;
+            const page = currentPage();
+
+            setSidebarCollapsed(page !== 'about');
+            
+            document.querySelectorAll('.nav-link, .mobile-nav-link').forEach(link => {
+                const href = link.getAttribute('href');
+                const isMobile = link.classList.contains('mobile-nav-link');
+                if (href === `#${page}` || (hash === '' && href === '#about')) {
+                    link.setAttribute('aria-current', 'page');
+                    link.className = isMobile
+                        ? "mobile-nav-link block font-semibold text-teal-700 dark:text-teal-300 py-1"
+                        : "nav-link font-semibold text-teal-700 dark:text-teal-300 border-b-2 border-amber-400 py-1";
+                } else {
+                    link.removeAttribute('aria-current');
+                    link.className = isMobile
+                        ? "mobile-nav-link block font-medium text-slate-600 dark:text-slate-400 hover:text-teal-700 dark:hover:text-teal-300 py-1"
+                        : "nav-link font-medium text-slate-600 dark:text-slate-400 hover:text-teal-700 dark:hover:text-teal-300 py-1";
+                }
+            });
+
+            const contentDiv = document.getElementById('main-content');
+            contentDiv.dataset.page = page;
+            contentDiv.innerHTML = `
+                <div class="flex justify-center items-center py-20">
+                    <div class="animate-spin rounded-full h-10 w-10 border-b-2 border-teal-500"></div>
+                </div>
+            `;
+
+            try {
+                const markdown = await readMarkdown(page);
+                
+                // Render Markdown to HTML
+                contentDiv.innerHTML = renderMarkdown(markdown);
+                decorateRenderedContent(contentDiv);
+                enhanceRenderedPage(page, contentDiv);
+                document.title = page === 'about' ? 'Prakhar Sharma | Academic Profile' : `${pageTitles[page]} | Prakhar Sharma`;
+            } catch (error) {
+                contentDiv.innerHTML = `
+                    <div class="text-center py-12">
+                        <h2 class="text-2xl font-extrabold text-slate-800 dark:text-white mb-3">Page unavailable</h2>
+                        <p class="text-slate-600 dark:text-slate-400 mb-6">The content for this section could not be loaded.</p>
+                        <div class="bg-slate-50 dark:bg-slate-900 p-4 rounded-lg inline-block text-left font-mono text-xs text-slate-500 dark:text-slate-400">
+                            Expected file: <span class="text-teal-600 dark:text-teal-300">content/${page}.md</span>
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (hasLoadedContent && window.location.hash) {
+                contentDiv.scrollIntoView({ block: 'start' });
+                contentDiv.focus({ preventScroll: true });
+            }
+            hasLoadedContent = true;
+        }
+
+        // Dark/Light Mode logic
+        const themeToggle = document.getElementById('theme-toggle');
+        const mobileThemeToggle = document.getElementById('mobile-theme-toggle');
+        const profileToggle = document.getElementById('profile-toggle');
+        
+        function toggleTheme() {
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                setStoredTheme('light');
+            } else {
+                document.documentElement.classList.add('dark');
+                setStoredTheme('dark');
+            }
+        }
+
+        themeToggle?.addEventListener('click', toggleTheme);
+        mobileThemeToggle?.addEventListener('click', toggleTheme);
+        profileToggle?.addEventListener('click', toggleSidebar);
+
+        // Mobile Menu toggle
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn?.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            const isOpen = !mobileMenu.classList.contains('hidden');
+            menuBtn.setAttribute('aria-expanded', String(isOpen));
+        });
+
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape' && mobileMenu && !mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.add('hidden');
+                menuBtn?.setAttribute('aria-expanded', 'false');
+                menuBtn?.focus();
+            }
+        });
+
+        // Hide mobile menu on link click
+        mobileMenu?.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                menuBtn?.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        window.addEventListener('hashchange', loadContent);
+        window.addEventListener('DOMContentLoaded', () => {
+            loadContent();
+            initFusionField();
+        });
+    </script>
+</body>
+</html>

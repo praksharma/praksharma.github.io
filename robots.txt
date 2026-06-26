@@ -1,7 +1,5 @@
----
-permalink: /robots.txt
----
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /old/
 
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+Sitemap: https://praksharma.github.io/sitemap.xml
